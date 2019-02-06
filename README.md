@@ -2,10 +2,20 @@
 
 A simple blog that can be deployed to the 'clearweb' or SAFE Network web.
 
-## Create A React-Static Blog
+## Create Your Own React-Static Blog
 
 ### Development
 
+React-static uses `yarn` so if you don't have it, install without `npm` from [yarnpkg.com](https://yarnpkg.com) or using `npm` with:
+```
+$ npm install -g yarn
+```
+
+Install React-static:
+```
+$ yarn global add react-static
+```
+Get rs-demo-blog and run the development server:
 ```
 git clone https://github.com/theWebalyst/rs-blog-demo && \
 cd rs-blog-demo && \
